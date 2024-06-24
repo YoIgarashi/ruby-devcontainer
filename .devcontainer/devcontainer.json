@@ -4,7 +4,7 @@
 		"docker-compose.yml"
 	],
 	"service": "app",
-	"workspaceFolder": "/home/yoshitaka-i/devcontainer/ruby-devcontainer",
+	"workspaceFolder": "/devcontainer/ruby-devcontainer",
 	"customizations": {
 		"vscode": {
 			"extensions": [
