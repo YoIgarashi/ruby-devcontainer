@@ -15,5 +15,5 @@ RUN apt update && \
 RUN su vscode -c "gem install rails:7.1.3"
 RUN su vscode -c "/usr/local/rvm/bin/rvm fix-permissions"
 
-WORKDIR "/devcontainer/ruby_devcontainer"
+WORKDIR "/devcontainer/ruby-devcontainer"
 RUN bundle config set --local path vendor/bundle
